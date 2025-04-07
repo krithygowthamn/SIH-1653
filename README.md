@@ -1,26 +1,62 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:31-03-2025
+## Register Number:212222220013
+## Name:Gowtham N
 ## Problem Title
-SIH 1653: Web based Selector-Applicant Simulation Software
+MediTrack: Medicine Expiry and Donation Alert System
 ## Problem Description
-Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defence carries out interviews for applications received against advertised vacancies and for promotion to next higher grade for scientific manpower inducted within DRDO. Description: The process of interviewing is a challenging task. An unbiased objective interviewing process helps identify the right talent. The basic process of an interview involves posing a set of questions by an interviewer and thereafter evaluating responses from candidates. Thus, the questions asked should be relevant and match the area/ expertise of the applicant and the responses should also be of relevance w.r.t. the question asked. Expected Solution: The proposed solution should provide experts as well as candidates a real life Board Room experience, starting with initial ice-breaking questions leading to in-depth techno-managerial (depending on the level of candidate) questions. It shall also be able to provide a quantifiable score for experts as well as the candidate for the relevancy of questions w.r.t. the area/ expertise of the applicant. Similarly, candidate responses should also be graded for relevancy w.r.t. the question asked, finally assisting in arriving at an overall score for the subject knowledge of the candidate and thus his/ her suitability against the advertised post.
+Background: In many households, unused medicines often accumulate and are eventually thrown away after expiration. This not only results in financial waste but also poses environmental risks when disposed of improperly. At the same time, a large segment of the population—especially in rural and low-income urban areas—faces difficulty in accessing basic medications due to affordability or availability. While NGOs and charitable clinics work to support these communities, they often lack a steady supply of essential medicines. A system that allows individuals to track their medicines’ expiry dates and safely donate unexpired, unused ones can help bridge this gap. Such a solution would reduce medicine waste, promote responsible usage, and support public health in underserved areas.
 
 ## Problem Creater's Organization
-Ministry of Defence
+Ministry of Health and Family Welfare
 
 ## Idea
+Medicine Entry & Tracking
+Users can add medicines by name or barcode, with expiry dates, and get automatic alerts before expiry.
 
+Expiry Notification System
+The app sends timely reminders (via app notification or SMS) to use or donate medicines before they expire.
+
+Donation Eligibility Check
+The system checks if a medicine is unopened, not expired, and safe to donate before allowing it for donation.
+
+Nearby Donation Centers Locator
+Users can view and contact nearby NGOs, clinics, or pharmacies that accept medicine donations using a built-in map.
+
+Donation Process & Confirmation
+Donors can mark medicines for donation, generate a QR code, or request a pickup, and receive confirmation once accepted.
+
+Awareness and Education
+The platform includes tips on medicine storage, responsible usage, and proper disposal of expired medicines.
+
+Multilingual and User-Friendly Interface
+Designed for accessibility, especially in rural and senior populations, with support for regional languages.
 
 ## Proposed Solution / Architecture Diagram
+![image](https://github.com/user-attachments/assets/33620952-c8ef-4dd0-83d8-d9fe391e2481)
 
 
 ## Use Cases
+![ChatGPT Image Apr 7, 2025, 09_31_23 PM](https://github.com/user-attachments/assets/b9583595-a3ae-4985-9ce7-997ef11036de)
 
 
 ## Technology Stack
+React.js
 
+Node.js
+
+PostgreSQL
+
+Google maps
+
+MongoDB/MySQL
 
 ## Dependencies
 
+Mapping service- 10 days
+
+Data collection- 10 days
+
+App Design & UI- 7 days
+
+Budget- Rs.59,999
